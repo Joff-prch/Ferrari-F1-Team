@@ -1,0 +1,123 @@
+body {
+  color: white;
+
+
+}
+
+body::-webkit-scrollbar {
+  width: 2px;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border: 1px dashed red;
+}
+
+
+
+
+#background-img-f {
+  height: 800px;
+  max-height: 100%;
+  width: auto;
+}
+
+
+
+#background-img-drivers {
+  height: 600px;
+  max-height: 80%;
+  background-image: url(../img/2iztleatxhn61.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  background-position-x: center;
+}
+
+
+.stat-art {
+  border: 3px dashed red;
+  border-radius: 10px;
+  height: 120px;
+
+}
+
+#history {
+  height: 900px;
+  max-height: 100%;
+  background-image: url(https://pbs.twimg.com/media/E0nVQYCXIAEwMaV?format=jpg&name=large);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#history img {
+  height: 160px;
+}
+
+#history h2 {
+  padding-top: 100px !important;
+
+}
+
+#history-div {
+  padding-top: 200px !important;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  height: 150px;
+}
+
+
+
+/* SWIPER */
+.swiper {
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+
+
+.img-top {
+  position: absolute;
+  top: 8px;
+}
+
+.swiper-pagination-progressbar-fill {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+.swiper-pagination-progressbar {
+  background-color: black(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
